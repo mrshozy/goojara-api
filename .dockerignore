@@ -1,0 +1,31 @@
+# Ignore common build output directories
+/target
+/cargo
+
+# Ignore IDE and editor-specific files
+/.vscode
+/.idea
+/.vs
+/.git
+
+# Ignore any files related to version control
+/.gitignore
+
+# Ignore build artifacts and temporary files
+*.rlib
+*.rmeta
+Cargo.lock
+
+# Exclude any test or development files
+tests
+examples
+docs
+*.md
+
+# Exclude configuration files if necessary
+.env
+.env.local
+
+# Exclude any unnecessary or large data files
+data
+logs
